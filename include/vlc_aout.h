@@ -295,7 +295,7 @@ typedef enum
     AOUT_CHANIDX_MAX
 } vlc_chan_order_idx_t;
 
-static_assert(AOUT_CHANIDX_MAX == AOUT_CHAN_MAX, "channel count mismatch");
+//static_assert(AOUT_CHANIDX_MAX == AOUT_CHAN_MAX, "channel count mismatch");
 
 #define AOUT_CHAN_REMAP_INIT { \
     AOUT_CHANIDX_LEFT,  \

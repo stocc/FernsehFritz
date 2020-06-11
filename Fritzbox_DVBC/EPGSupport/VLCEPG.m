@@ -40,9 +40,10 @@
         if (beginning.length == 0) {
             _channelId = fullName;
             _channelName = fullName;
+        } else {
+            _channelId = [fullName substringWithRange:NSMakeRange(beginning.location + beginning.length, fullName.length - beginning.location - beginning.length)];
+            _channelName = _channelId;
         }
-        _channelId = [fullName substringWithRange:NSMakeRange(beginning.location + beginning.length, fullName.length - beginning.location - beginning.length)];
-        _channelName = _channelId;
     } else {
         _channelName = [fullName substringToIndex:beginning.location];
         _channelId = [fullName substringWithRange:NSMakeRange(beginning.location + beginning.length, fullName.length - beginning.location - beginning.length - 1)];
