@@ -46,6 +46,8 @@
 		6922205C2492A88900B4F8B3 /* VLCEpgEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922205A2492A88900B4F8B3 /* VLCEpgEvent.m */; };
 		6922205D2492A88900B4F8B3 /* VLCEPG.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922205B2492A88900B4F8B3 /* VLCEPG.m */; };
 		692220602492A8EF00B4F8B3 /* VLCHelperCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922205F2492A8EF00B4F8B3 /* VLCHelperCode.m */; };
+		692220682492ABD800B4F8B3 /* VLCMediaPlayer+TeletextSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 692220672492ABD800B4F8B3 /* VLCMediaPlayer+TeletextSupport.m */; };
+		6922206B2492AE9800B4F8B3 /* VLCMedia+EPGSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922206A2492AE9800B4F8B3 /* VLCMedia+EPGSupport.m */; };
 		6925C0C51E88747000340286 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6925C0C41E88747000340286 /* ImageIO.framework */; };
 		692C4DA51E96F82000C71234 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C4DA41E96F82000C71234 /* VideoToolbox.framework */; };
 		695E05B71E9FF6D4004465B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695E05B61E9FF6D4004465B3 /* Assets.xcassets */; };
@@ -228,6 +230,11 @@
 		6922205B2492A88900B4F8B3 /* VLCEPG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLCEPG.m; sourceTree = "<group>"; };
 		6922205E2492A8D600B4F8B3 /* VLCHelperCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLCHelperCode.h; sourceTree = "<group>"; };
 		6922205F2492A8EF00B4F8B3 /* VLCHelperCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLCHelperCode.m; sourceTree = "<group>"; };
+		692220662492ABD800B4F8B3 /* VLCMediaPlayer+TeletextSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VLCMediaPlayer+TeletextSupport.h"; sourceTree = "<group>"; };
+		692220672492ABD800B4F8B3 /* VLCMediaPlayer+TeletextSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VLCMediaPlayer+TeletextSupport.m"; sourceTree = "<group>"; };
+		692220692492AE9800B4F8B3 /* VLCMedia+EPGSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VLCMedia+EPGSupport.h"; sourceTree = "<group>"; };
+		6922206A2492AE9800B4F8B3 /* VLCMedia+EPGSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VLCMedia+EPGSupport.m"; sourceTree = "<group>"; };
+		6922206C2492B09400B4F8B3 /* Fritzbox_DVBC_Pod-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fritzbox_DVBC_Pod-Bridging-Header.h"; sourceTree = "<group>"; };
 		6925C0C41E88747000340286 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		6925C0C61E88759600340286 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../Library/Developer/Xcode/DerivedData/fritzboxstreaming-bazxqxvzannzwchgdlizgzvilupm/Build/Products/Debug-appletvos/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
 		692C4DA11E96F7AC00C71234 /* libTVVLCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTVVLCKit.a; path = "../../Library/Developer/Xcode/DerivedData/fritzboxstreaming-bazxqxvzannzwchgdlizgzvilupm/Build/Products/Debug-appletvsimulator/libTVVLCKit.a"; sourceTree = "<group>"; };
@@ -493,8 +500,19 @@
 				6922205A2492A88900B4F8B3 /* VLCEpgEvent.m */,
 				6922205E2492A8D600B4F8B3 /* VLCHelperCode.h */,
 				6922205F2492A8EF00B4F8B3 /* VLCHelperCode.m */,
+				692220692492AE9800B4F8B3 /* VLCMedia+EPGSupport.h */,
+				6922206A2492AE9800B4F8B3 /* VLCMedia+EPGSupport.m */,
 			);
 			path = EPGSupport;
+			sourceTree = "<group>";
+		};
+		692220652492ABBE00B4F8B3 /* TeletextSupport */ = {
+			isa = PBXGroup;
+			children = (
+				692220662492ABD800B4F8B3 /* VLCMediaPlayer+TeletextSupport.h */,
+				692220672492ABD800B4F8B3 /* VLCMediaPlayer+TeletextSupport.m */,
+			);
+			path = TeletextSupport;
 			sourceTree = "<group>";
 		};
 		695E05AE1E9FF6D4004465B3 /* Simulator */ = {
@@ -533,8 +551,9 @@
 		69F32B1A1E80B80A00D30671 /* Fritzbox_DVBC */ = {
 			isa = PBXGroup;
 			children = (
-				695E05AE1E9FF6D4004465B3 /* Simulator */,
 				692220572492A85300B4F8B3 /* EPGSupport */,
+				692220652492ABBE00B4F8B3 /* TeletextSupport */,
+				695E05AE1E9FF6D4004465B3 /* Simulator */,
 				69F32B1B1E80B80A00D30671 /* AppDelegate.swift */,
 				69F32B1F1E80B80A00D30671 /* Main.storyboard */,
 				698CBB8D21E20A2F0052FB47 /* EPGListCollectionViewController.swift */,
@@ -554,6 +573,7 @@
 				69F32B221E80B80A00D30671 /* Assets.xcassets */,
 				69221FCE2492936F00B4F8B3 /* Info.plist */,
 				69221FD4249298D900B4F8B3 /* Fritzbox_DVBC-Bridging-Header.h */,
+				6922206C2492B09400B4F8B3 /* Fritzbox_DVBC_Pod-Bridging-Header.h */,
 			);
 			path = Fritzbox_DVBC;
 			sourceTree = "<group>";
@@ -854,8 +874,10 @@
 				69221FA524928E0700B4F8B3 /* EPGCollectionViewCell.swift in Sources */,
 				6922205D2492A88900B4F8B3 /* VLCEPG.m in Sources */,
 				69221FA624928E0700B4F8B3 /* Channel.swift in Sources */,
+				6922206B2492AE9800B4F8B3 /* VLCMedia+EPGSupport.m in Sources */,
 				69221FA724928E0700B4F8B3 /* EPGListCollectionViewController.swift in Sources */,
 				69221FA824928E0700B4F8B3 /* EPGViewControllerDataSource.swift in Sources */,
+				692220682492ABD800B4F8B3 /* VLCMediaPlayer+TeletextSupport.m in Sources */,
 				69221FA924928E0700B4F8B3 /* ChannelCollectionViewCell.swift in Sources */,
 				69221FAA24928E0700B4F8B3 /* LivePlayerViewController.swift in Sources */,
 				69221FAB24928E0700B4F8B3 /* ChannelViewTransition.swift in Sources */,
@@ -944,8 +966,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielpetri.fritzboxstreaming-pod";
 				PRODUCT_NAME = "TV App";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DISABLE_CUSTOM_VLC $inherited";
-				SWIFT_OBJC_BRIDGING_HEADER = "Fritzbox_DVBC/Fritzbox_DVBC-Bridging-Header.h";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$inherited USES_VLC_POD";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fritzbox_DVBC/Fritzbox_DVBC_Pod-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -970,8 +992,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielpetri.fritzboxstreaming-pod";
 				PRODUCT_NAME = "TV App";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DISABLE_CUSTOM_VLC $inherited";
-				SWIFT_OBJC_BRIDGING_HEADER = "Fritzbox_DVBC/Fritzbox_DVBC-Bridging-Header.h";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$inherited USES_VLC_POD";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fritzbox_DVBC/Fritzbox_DVBC_Pod-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 12.1;

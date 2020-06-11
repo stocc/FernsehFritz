@@ -37,6 +37,10 @@
     NSRange beginning = [fullName rangeOfString:@" [Program "];
     if (beginning.length == 0) {
         NSRange beginning = [fullName rangeOfString:@"Program "];
+        if (beginning.length == 0) {
+            _channelId = fullName;
+            _channelName = fullName;
+        }
         _channelId = [fullName substringWithRange:NSMakeRange(beginning.location + beginning.length, fullName.length - beginning.location - beginning.length)];
         _channelName = _channelId;
     } else {
