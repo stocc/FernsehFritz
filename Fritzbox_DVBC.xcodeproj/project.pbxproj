@@ -43,7 +43,9 @@
 		69221FC724928E0700B4F8B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F32B1F1E80B80A00D30671 /* Main.storyboard */; };
 		69221FE724929FAC00B4F8B3 /* libTVVLCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69221FE124929D9A00B4F8B3 /* libTVVLCKit.a */; };
 		69221FE82492A0F100B4F8B3 /* EPGViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CBB8821E190440052FB47 /* EPGViewControllerDataSource.swift */; };
-		69221FEB2492A42700B4F8B3 /* HackTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69221FEA2492A42700B4F8B3 /* HackTest.m */; };
+		6922205C2492A88900B4F8B3 /* VLCEpgEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922205A2492A88900B4F8B3 /* VLCEpgEvent.m */; };
+		6922205D2492A88900B4F8B3 /* VLCEPG.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922205B2492A88900B4F8B3 /* VLCEPG.m */; };
+		692220602492A8EF00B4F8B3 /* VLCHelperCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922205F2492A8EF00B4F8B3 /* VLCHelperCode.m */; };
 		6925C0C51E88747000340286 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6925C0C41E88747000340286 /* ImageIO.framework */; };
 		692C4DA51E96F82000C71234 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C4DA41E96F82000C71234 /* VideoToolbox.framework */; };
 		695E05B71E9FF6D4004465B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695E05B61E9FF6D4004465B3 /* Assets.xcassets */; };
@@ -115,8 +117,6 @@
 		69221FD4249298D900B4F8B3 /* Fritzbox_DVBC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fritzbox_DVBC-Bridging-Header.h"; sourceTree = "<group>"; };
 		69221FE124929D9A00B4F8B3 /* libTVVLCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTVVLCKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		69221FE324929F8400B4F8B3 /* DynamicTVVLCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicTVVLCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69221FE92492A42700B4F8B3 /* HackTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackTest.h; sourceTree = "<group>"; };
-		69221FEA2492A42700B4F8B3 /* HackTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackTest.m; sourceTree = "<group>"; };
 		69221FED2492A6EB00B4F8B3 /* vlc_fourcc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlc_fourcc.h; sourceTree = "<group>"; };
 		69221FEE2492A6EB00B4F8B3 /* vlc_mime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlc_mime.h; sourceTree = "<group>"; };
 		69221FEF2492A6EB00B4F8B3 /* vlc_events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlc_events.h; sourceTree = "<group>"; };
@@ -222,6 +222,12 @@
 		692220542492A6EC00B4F8B3 /* vlc_access.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlc_access.h; sourceTree = "<group>"; };
 		692220552492A6EC00B4F8B3 /* vlc_fixups.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlc_fixups.h; sourceTree = "<group>"; };
 		692220562492A6EC00B4F8B3 /* vlc_vout_display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vlc_vout_display.h; sourceTree = "<group>"; };
+		692220582492A86700B4F8B3 /* VLCEpgEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLCEpgEvent.h; sourceTree = "<group>"; };
+		692220592492A86700B4F8B3 /* VLCEPG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLCEPG.h; sourceTree = "<group>"; };
+		6922205A2492A88900B4F8B3 /* VLCEpgEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLCEpgEvent.m; sourceTree = "<group>"; };
+		6922205B2492A88900B4F8B3 /* VLCEPG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLCEPG.m; sourceTree = "<group>"; };
+		6922205E2492A8D600B4F8B3 /* VLCHelperCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLCHelperCode.h; sourceTree = "<group>"; };
+		6922205F2492A8EF00B4F8B3 /* VLCHelperCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLCHelperCode.m; sourceTree = "<group>"; };
 		6925C0C41E88747000340286 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		6925C0C61E88759600340286 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../Library/Developer/Xcode/DerivedData/fritzboxstreaming-bazxqxvzannzwchgdlizgzvilupm/Build/Products/Debug-appletvos/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
 		692C4DA11E96F7AC00C71234 /* libTVVLCKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTVVLCKit.a; path = "../../Library/Developer/Xcode/DerivedData/fritzboxstreaming-bazxqxvzannzwchgdlizgzvilupm/Build/Products/Debug-appletvsimulator/libTVVLCKit.a"; sourceTree = "<group>"; };
@@ -478,6 +484,19 @@
 			path = vlc;
 			sourceTree = "<group>";
 		};
+		692220572492A85300B4F8B3 /* EPGSupport */ = {
+			isa = PBXGroup;
+			children = (
+				692220592492A86700B4F8B3 /* VLCEPG.h */,
+				692220582492A86700B4F8B3 /* VLCEpgEvent.h */,
+				6922205B2492A88900B4F8B3 /* VLCEPG.m */,
+				6922205A2492A88900B4F8B3 /* VLCEpgEvent.m */,
+				6922205E2492A8D600B4F8B3 /* VLCHelperCode.h */,
+				6922205F2492A8EF00B4F8B3 /* VLCHelperCode.m */,
+			);
+			path = EPGSupport;
+			sourceTree = "<group>";
+		};
 		695E05AE1E9FF6D4004465B3 /* Simulator */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +534,7 @@
 			isa = PBXGroup;
 			children = (
 				695E05AE1E9FF6D4004465B3 /* Simulator */,
+				692220572492A85300B4F8B3 /* EPGSupport */,
 				69F32B1B1E80B80A00D30671 /* AppDelegate.swift */,
 				69F32B1F1E80B80A00D30671 /* Main.storyboard */,
 				698CBB8D21E20A2F0052FB47 /* EPGListCollectionViewController.swift */,
@@ -531,8 +551,6 @@
 				6994DF0C1E8362D90076B3F7 /* PlayerViewController.swift */,
 				695E05BD1E9FF726004465B3 /* LivePlayerViewController.swift */,
 				6990E0991E835806007FDE90 /* JvBCRUDRequest.swift */,
-				69221FE92492A42700B4F8B3 /* HackTest.h */,
-				69221FEA2492A42700B4F8B3 /* HackTest.m */,
 				69F32B221E80B80A00D30671 /* Assets.xcassets */,
 				69221FCE2492936F00B4F8B3 /* Info.plist */,
 				69221FD4249298D900B4F8B3 /* Fritzbox_DVBC-Bridging-Header.h */,
@@ -832,7 +850,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69221FA424928E0700B4F8B3 /* ChannelSelectionCollectionViewController.swift in Sources */,
+				692220602492A8EF00B4F8B3 /* VLCHelperCode.m in Sources */,
 				69221FA524928E0700B4F8B3 /* EPGCollectionViewCell.swift in Sources */,
+				6922205D2492A88900B4F8B3 /* VLCEPG.m in Sources */,
 				69221FA624928E0700B4F8B3 /* Channel.swift in Sources */,
 				69221FA724928E0700B4F8B3 /* EPGListCollectionViewController.swift in Sources */,
 				69221FA824928E0700B4F8B3 /* EPGViewControllerDataSource.swift in Sources */,
@@ -843,7 +863,7 @@
 				69221FAD24928E0700B4F8B3 /* EpgManager.swift in Sources */,
 				69221FAE24928E0700B4F8B3 /* AppDelegate.swift in Sources */,
 				69221FAF24928E0700B4F8B3 /* ChannelManager.swift in Sources */,
-				69221FEB2492A42700B4F8B3 /* HackTest.m in Sources */,
+				6922205C2492A88900B4F8B3 /* VLCEpgEvent.m in Sources */,
 				69221FB024928E0700B4F8B3 /* ChannelViewController.swift in Sources */,
 				69221FB124928E0700B4F8B3 /* PlayerViewController.swift in Sources */,
 				69221FB224928E0700B4F8B3 /* Extensions.swift in Sources */,
@@ -916,7 +936,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = D8LV5K5C7N;
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/include",
+				);
 				INFOPLIST_FILE = Fritzbox_DVBC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielpetri.fritzboxstreaming-pod";
@@ -939,7 +962,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = D8LV5K5C7N;
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/include",
+				);
 				INFOPLIST_FILE = Fritzbox_DVBC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielpetri.fritzboxstreaming-pod";
