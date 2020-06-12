@@ -61,15 +61,16 @@
 		698CBB8F21E20A2F0052FB47 /* EPGListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698CBB8D21E20A2F0052FB47 /* EPGListCollectionViewController.swift */; };
 		69DC05C52492720D00AD88D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC05C32492720D00AD88D7 /* Extensions.swift */; };
 		69DC05C82492742E00AD88D7 /* ChannelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC05C62492742E00AD88D7 /* ChannelManager.swift */; };
-		88B3D76E91B1DE08508F7B0A /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_VLCPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8E290B1EAC59E05C512FC2 /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_VLCPod.framework */; };
-		C9D46D5CD84565F64E1ABE4E /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1496AA6F011C81DAD44DB377 /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework */; };
+		D2CD0C5A6EC1C84D6770CE2F /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28875C37318A102DFC45B527 /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework */; };
+		DE4B5FD4DBB8EE766404ECEE /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B099277F65FADB3A388F003B /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B828819D10342585734EC35 /* Pods-Fritzbox_DVBC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC/Pods-Fritzbox_DVBC.debug.xcconfig"; sourceTree = "<group>"; };
-		1496AA6F011C81DAD44DB377 /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F8E290B1EAC59E05C512FC2 /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_VLCPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fritzbox_DVBC_Fritzbox_DVBC_VLCPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE4518202536823E74F3AE7 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.debug.xcconfig"; sourceTree = "<group>"; };
+		1E56CA8D1B777F51FC9E0624 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig"; sourceTree = "<group>"; };
 		1FBB17BD4FB5529A15D03351 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig"; sourceTree = "<group>"; };
+		28875C37318A102DFC45B527 /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAE87863975FA3739B17BBC /* Pods-Fritzbox_DVBC_VLCPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC_VLCPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC_VLCPod/Pods-Fritzbox_DVBC_VLCPod.debug.xcconfig"; sourceTree = "<group>"; };
 		3C52D91763EBF01894E3C305 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig"; sourceTree = "<group>"; };
 		3CB7F91AB8934AABDE5D8AF7 /* Pods-streamingSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamingSimulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-streamingSimulator/Pods-streamingSimulator.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		48494BA5A9514DD96F924CAD /* Pods-streamingSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamingSimulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-streamingSimulator/Pods-streamingSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 		587C226176B4B74EA74047EB /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.debug.xcconfig"; sourceTree = "<group>"; };
 		597047DC1B0D0144FEA9DE2B /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_CustomVLC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fritzbox_DVBC_Fritzbox_DVBC_CustomVLC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63131CEF847909223AAF1C06 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.release.xcconfig"; path = "Pods/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.release.xcconfig"; sourceTree = "<group>"; };
 		691551831EF5D34E00FF08F5 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = ../../Desktop/IOSurface.framework; sourceTree = "<group>"; };
 		6921A7A21EA10E1600187FAB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		69221FCC24928E0700B4F8B3 /* TV App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,7 +248,9 @@
 		7824C903EEDC25BBB57438EA /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC/Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC.debug.xcconfig"; sourceTree = "<group>"; };
 		912F48AE48FACC0F9C0B7D13 /* Pods-Fritzbox_DVBC_CustomVLC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC_CustomVLC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC_CustomVLC/Pods-Fritzbox_DVBC_CustomVLC.debug.xcconfig"; sourceTree = "<group>"; };
 		91F8E4F6A93114722219F6DD /* Pods-fritzboxstreaming-epg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fritzboxstreaming-epg.release.xcconfig"; path = "Pods/Target Support Files/Pods-fritzboxstreaming-epg/Pods-fritzboxstreaming-epg.release.xcconfig"; sourceTree = "<group>"; };
+		B099277F65FADB3A388F003B /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a_Fritzbox_DVBC_Fritzbox_DVBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC80F516FA5C43C2802CA9E7 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.release.xcconfig"; sourceTree = "<group>"; };
+		BF85C324D79629B38CF72717 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig"; sourceTree = "<group>"; };
 		D16A9FC59DF52342ACB63B4C /* Pods-Fritzbox_DVBC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC/Pods-Fritzbox_DVBC.release.xcconfig"; sourceTree = "<group>"; };
 		D5990B7B16A2163947ADF215 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC/Pods-Fritzbox_DVBC-Fritzbox_DVBC_CustomVLC.release.xcconfig"; sourceTree = "<group>"; };
 		D68684CDD73F36B47314C1B8 /* Pods_fritzboxstreaming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fritzboxstreaming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,7 +278,7 @@
 				69221FC124928E0700B4F8B3 /* OpenGLES.framework in Frameworks */,
 				69221FC224928E0700B4F8B3 /* AudioToolbox.framework in Frameworks */,
 				69221FC324928E0700B4F8B3 /* CoreGraphics.framework in Frameworks */,
-				88B3D76E91B1DE08508F7B0A /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_VLCPod.framework in Frameworks */,
+				DE4B5FD4DBB8EE766404ECEE /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +286,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9D46D5CD84565F64E1ABE4E /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework in Frameworks */,
+				D2CD0C5A6EC1C84D6770CE2F /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,10 @@
 				1FBB17BD4FB5529A15D03351 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig */,
 				587C226176B4B74EA74047EB /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.debug.xcconfig */,
 				BC80F516FA5C43C2802CA9E7 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.release.xcconfig */,
+				0BE4518202536823E74F3AE7 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.debug.xcconfig */,
+				63131CEF847909223AAF1C06 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.release.xcconfig */,
+				BF85C324D79629B38CF72717 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig */,
+				1E56CA8D1B777F51FC9E0624 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -547,8 +555,8 @@
 				6990E0771E83334A007FDE90 /* CoreGraphics.framework */,
 				D68684CDD73F36B47314C1B8 /* Pods_fritzboxstreaming.framework */,
 				597047DC1B0D0144FEA9DE2B /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_CustomVLC.framework */,
-				1496AA6F011C81DAD44DB377 /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework */,
-				1F8E290B1EAC59E05C512FC2 /* Pods_Fritzbox_DVBC_Fritzbox_DVBC_VLCPod.framework */,
+				B099277F65FADB3A388F003B /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC.framework */,
+				28875C37318A102DFC45B527 /* Pods_a_Fritzbox_DVBC_Fritzbox_DVBC_Simulator.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -665,7 +673,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -674,7 +682,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		69221FA224928E0700B4F8B3 /* [CP] Check Pods Manifest.lock */ = {
@@ -688,7 +696,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -701,7 +709,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -710,7 +718,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod/Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		83E742BF877BDE3F4BFE992C /* [CP] Check Pods Manifest.lock */ = {
@@ -724,7 +732,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -798,7 +806,7 @@
 /* Begin XCBuildConfiguration section */
 		69221FCA24928E0700B4F8B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 587C226176B4B74EA74047EB /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.debug.xcconfig */;
+			baseConfigurationReference = 0BE4518202536823E74F3AE7 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -824,7 +832,7 @@
 		};
 		69221FCB24928E0700B4F8B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC80F516FA5C43C2802CA9E7 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_VLCPod.release.xcconfig */;
+			baseConfigurationReference = 63131CEF847909223AAF1C06 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -849,7 +857,7 @@
 		};
 		695E05B91E9FF6D4004465B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C52D91763EBF01894E3C305 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig */;
+			baseConfigurationReference = BF85C324D79629B38CF72717 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -868,7 +876,7 @@
 		};
 		695E05BA1E9FF6D4004465B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FBB17BD4FB5529A15D03351 /* Pods-Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig */;
+			baseConfigurationReference = 1E56CA8D1B777F51FC9E0624 /* Pods-a_Fritzbox_DVBC-Fritzbox_DVBC_Simulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
