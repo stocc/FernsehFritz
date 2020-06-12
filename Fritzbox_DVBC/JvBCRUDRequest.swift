@@ -1,11 +1,3 @@
-//
-//  JvBCRUDRequest.swift
-//  CRUD
-//
-//  Created by Justus von Brandt on 16.11.15.
-//  Copyright © 2015 Justus von Brandt. All rights reserved.
-//
-
 import Foundation
 
 enum JvBCRUDRequestType: String {

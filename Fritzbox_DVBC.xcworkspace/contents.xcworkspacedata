@@ -5,9 +5,6 @@
       location = "group:Fritzbox_DVBC.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:VLCKit/MobileVLCKit.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

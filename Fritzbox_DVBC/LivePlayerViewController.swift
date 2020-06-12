@@ -103,7 +103,6 @@ class LivePlayerViewController: PlayerViewController,  VLCMediaDelegate, VLCMedi
         
     }
     
-    
     override func didSetTeletextPage(to page: Int32) {
         setTeletextPage(to: page)
     }
@@ -178,14 +177,28 @@ extension LivePlayerViewController {
     fileprivate func perform(teletextAction: String) {
         #if DISABLE_CUSTOM_VLC
         #else
-        player.telxNavLink(teletextAction)
+        
+        switch teletextAction {
+        case "Index":
+            player.follow(.Index)
+        case "Red":
+            player.follow(.Red)
+        case "Green":
+            player.follow(.Green)
+        case "Yellow":
+            player.follow(.Yellow)
+        case "Blue":
+            player.follow(.Blue)
+        default:
+            break
+        }
         #endif
     }
     
     fileprivate func setTeletextTransparency(to state: Bool) {
         #if DISABLE_CUSTOM_VLC
         #else
-        player.telxTransparent(state)
+        player.setTeletextTransparencyTo(state)
         #endif
     }
 }
