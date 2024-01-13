@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -608,8 +608,9 @@
 		69F32B101E80B80A00D30671 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = "Daniel Petri";
 				TargetAttributes = {
 					69221FA124928E0700B4F8B3 = {
@@ -817,7 +818,10 @@
 					"$(PROJECT_DIR)/vlc_include",
 				);
 				INFOPLIST_FILE = Fritzbox_DVBC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielpetri.fritzboxstreaming-pod";
 				PRODUCT_NAME = "TV App";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$inherited USES_VLC_POD";
@@ -843,7 +847,10 @@
 					"$(PROJECT_DIR)/vlc_include",
 				);
 				INFOPLIST_FILE = Fritzbox_DVBC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danielpetri.fritzboxstreaming-pod";
 				PRODUCT_NAME = "TV App";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$inherited USES_VLC_POD";
@@ -864,7 +871,10 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = D8LV5K5C7N;
 				INFOPLIST_FILE = "$(SRCROOT)/Fritzbox_DVBC/Simulator/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielpetri.streamingSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DISABLE_CUSTOM_VLC $inherited";
@@ -883,7 +893,10 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEVELOPMENT_TEAM = D8LV5K5C7N;
 				INFOPLIST_FILE = "$(SRCROOT)/Fritzbox_DVBC/Simulator/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielpetri.streamingSimulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DISABLE_CUSTOM_VLC $inherited";
@@ -927,6 +940,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -987,6 +1001,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = SIMULATOR;
@@ -999,7 +1014,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.1;
 				VALIDATE_PRODUCT = YES;

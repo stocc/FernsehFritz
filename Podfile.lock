@@ -1,7 +1,7 @@
 PODS:
-  - SDWebImage (5.8.0):
-    - SDWebImage/Core (= 5.8.0)
-  - SDWebImage/Core (5.8.0)
+  - SDWebImage (5.18.10):
+    - SDWebImage/Core (= 5.18.10)
+  - SDWebImage/Core (5.18.10)
   - TVVLCKit (3.3.12)
 
 DEPENDENCIES:
@@ -14,9 +14,9 @@ SPEC REPOS:
     - TVVLCKit
 
 SPEC CHECKSUMS:
-  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SDWebImage: fc8f2d48bbfd72ef39d70e981bd24a3f3be53fec
   TVVLCKit: c39ff3257266dc2d3c808e492748f56e71e4b104
 
-PODFILE CHECKSUM: 4bd96ea0f2df782de39b4246c9f963d251525306
+PODFILE CHECKSUM: 7430e1a98b49023c66038d6d84b8191580ba3780
 
 COCOAPODS: 1.11.3
