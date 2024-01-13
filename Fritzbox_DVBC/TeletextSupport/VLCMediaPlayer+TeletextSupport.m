@@ -1,17 +1,14 @@
 #import "VLCMediaPlayer+TeletextSupport.h"
 #import "VLCLibDeclarations.h"
-
-@interface VLCMediaPlayer () {
-        libvlc_media_player_t *_playerInstance;
-}
-
-@end
+#import <vlc_player.h>
 
 @implementation VLCMediaPlayer (TeletextSupport)
+
+@dynamic playerInstance;
+
 - (void)setTeletextPageTo:(int) page
 {
-    libvlc_media_player_t *player = self->_playerInstance;
-    libvlc_video_set_teletext(player, page);
+    libvlc_video_set_teletext(self.playerInstance, page);
 }
 
 
@@ -48,6 +45,10 @@
 
 - (void)setTeletextTransparencyTo:(BOOL)sender
 {
+    //libvlc_media_player_t *mediaPlayer = self.playerInstance;
+    
+    //vlc_player_SetTeletextTransparency(mediaPlayer->player, sender);
+    
 //    THIS IS NOT SUPPORTED AT THIS TIME TIME
 //
     

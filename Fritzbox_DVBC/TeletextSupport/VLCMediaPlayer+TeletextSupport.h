@@ -13,6 +13,9 @@ typedef NS_ENUM(NSInteger, VLCTeletextLink) {
 
 @interface VLCMediaPlayer (TeletextSupport)
 
+@property (readonly) libvlc_media_player_t *playerInstance;
+
+
 - (void)followTeletextLink:(VLCTeletextLink)link;
 
 - (void)setTeletextPageTo:(int) page;

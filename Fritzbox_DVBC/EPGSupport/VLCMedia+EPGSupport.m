@@ -2,6 +2,9 @@
 #import "VLCLibDeclarations.h"
 
 @implementation VLCMedia (EPGSupport)
+
+@dynamic libVLCMediaDescriptor;
+
     -(NSArray *)parseEpg{
         libvlc_media_t *p_media = (__bridge libvlc_media_t *)([self performSelector:@selector(libVLCMediaDescriptor)]);
         input_item_t *p_item = p_media->p_input_item;

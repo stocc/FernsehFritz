@@ -23,14 +23,14 @@ class LivePlayerViewController: PlayerViewController,  VLCMediaDelegate, VLCMedi
         }
     }
     
-    func mediaPlayerTimeChanged(_ aNotification: Notification!) {
+    func mediaPlayerTimeChanged(_ aNotification: Notification) {
         updateEpg()
         updateEpgShowLabels()
         
         var fps = "null"
         var width = "null"
         var height = "null"
-        if let info = player.media.tracksInformation as? [Dictionary<String,Any>]{
+        if let info = player.media?.tracksInformation as? [Dictionary<String,Any>]{
             if info.count > 0 {
                 for track in info {
                     if track[VLCMediaTracksInformationType] as! String == "video" {
@@ -47,7 +47,7 @@ class LivePlayerViewController: PlayerViewController,  VLCMediaDelegate, VLCMedi
         self.otherStuffLabel.text = String.init(format:"%@fps %@x%@ %@",fps, width, height, epgString)
     }
     
-    func mediaPlayerStateChanged(_ aNotification: Notification!) {
+    func mediaPlayerStateChanged(_ aNotification: Notification) {
         liveView.bringSubviewToFront(infoView)
 
         if player.state == .paused {
@@ -125,7 +125,7 @@ class LivePlayerViewController: PlayerViewController,  VLCMediaDelegate, VLCMedi
         media.delegate = self
         player.delegate = self
         
-        player.media.parse(withOptions: VLCMediaParsingOptions(VLCMediaParseNetwork))
+        player.media?.parse(options: .parseNetwork)
         player.play()
     }
 
@@ -144,7 +144,9 @@ extension LivePlayerViewController {
     fileprivate func updateEpg() {
         #if DISABLE_CUSTOM_VLC
         #else
-        EpgManager.sharedInstance.updateWithEpg(for: player.media)
+        if let media = player.media {
+            EpgManager.sharedInstance.updateWithEpg(for: media)
+        }
         #endif
     }
     

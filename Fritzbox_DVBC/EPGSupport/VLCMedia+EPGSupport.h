@@ -2,7 +2,8 @@
 #import "VLCEPG.h"
 
 @interface VLCMedia (EPGSupport)
-- (void *)libVLCMediaDescriptor;
+@property (readonly) void * libVLCMediaDescriptor;
+
 - (NSArray *)parseEpg;
 @end
 

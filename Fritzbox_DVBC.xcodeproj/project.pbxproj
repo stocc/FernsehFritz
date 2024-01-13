@@ -711,10 +711,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC/Pods-a_Fritzbox_DVBC-Fritzbox_DVBC-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TVVLCKit/TVVLCKit.framework/TVVLCKit",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TVVLCKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

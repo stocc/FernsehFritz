@@ -7,7 +7,7 @@ abstract_target 'a_Fritzbox_DVBC' do
 
   target :'Fritzbox_DVBC_Simulator'
   target 'Fritzbox_DVBC' do
-      pod 'TVVLCKit', '3.3.12'
+      pod 'TVVLCKit', '3.5.0'
   end
 end
 
